@@ -38,7 +38,7 @@ jobs:
         shell: bash
         run: cd Xcode && xcodebuild -project libusb.xcodeproj
 
-      - name: 'upload w64 dlldep artifact'
+      - name: 'upload macos artifact'
         uses: actions/upload-artifact@v4
         with:
           name: libusb-macos
