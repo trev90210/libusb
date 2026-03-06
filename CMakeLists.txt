@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.9.2...4.2)
 project(libusb)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-include(EnableWarnings)
+#include(EnableWarnings)
 
 # currently this cmake file is windows specific
 
