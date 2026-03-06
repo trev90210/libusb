@@ -43,7 +43,7 @@ target_include_directories( libusb_static  PRIVATE msvc )
 set_property(TARGET libusb_static PROPERTY CXX_STANDARD 14)
 set_property(TARGET libusb_static PROPERTY CXX_STANDARD_REQUIRED ON)
 
-# enable warnings
-enable_warnings(libusb_static)
+# enable warnings - disabled - causes error in extio_rtl
+#enable_warnings(libusb_static)
 
 target_compile_options(libusb_static PRIVATE /W4389)
